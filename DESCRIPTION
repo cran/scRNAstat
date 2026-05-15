@@ -1,7 +1,7 @@
 Package: scRNAstat
 Type: Package
 Title: A Pipeline to Process Single Cell RNAseq Data
-Version: 0.1.1.1
+Version: 0.1.1.2
 Authors@R: c(
         person("Jianming","Zeng",
             email = "jmzeng1314@163.com",
@@ -26,12 +26,11 @@ LazyData: true
 RoxygenNote: 7.1.2
 Depends: R (>= 2.10)
 Imports: Seurat, ggplot2, stringr, clustree, magrittr, Matrix, dplyr,
-        patchwork
-Suggests: DBI
+        patchwork, colorspace, DBI
 NeedsCompilation: no
-Packaged: 2025-03-08 07:02:38 UTC; hornik
+Packaged: 2026-05-15 02:53:05 UTC; xiayh17
 Author: Jianming Zeng [aut],
   Yonghe Xia [ctb, cre],
   Biotrainee group [cph, fnd]
 Repository: CRAN
-Date/Publication: 2025-03-08 08:58:55 UTC
+Date/Publication: 2026-05-15 03:10:02 UTC
